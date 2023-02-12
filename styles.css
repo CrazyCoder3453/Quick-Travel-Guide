@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+#header {
+    margin: 0;
+    height: 70%;
+    background-image: url("https://www.state.gov/wp-content/uploads/2019/04/Japan-2107x1406.jpg");
+    background-size: cover;
+}
+
+#header:hover {
+    background-image: url("https://i.insider.com/5d26280921a86107bb51bd92?width=700");
+    background-size: cover;
+}
+
+#body {
+    background: linear-gradient(#f56c42, #f55a42 );
+    height: 35%;
+    font-size: medium;
+}
+
+#monkey, #streets, #temple {
+    margin: 0 100px 0 100px;
+}
